@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: myWeb - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/myWeb.res" /d "_DEBUG" /d "_AFXDLL" "C:\WINDOWS\Desktop\myWeb\myWeb.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP70A0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/myWeb.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\myWeb\MainFrm.cpp"
+"C:\WINDOWS\Desktop\myWeb\myWeb.cpp"
+"C:\WINDOWS\Desktop\myWeb\myWebDoc.cpp"
+"C:\WINDOWS\Desktop\myWeb\myWebView.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70A0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP70A1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/myWeb.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\myWeb\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70A1.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/myWeb.pdb" /debug /machine:I386 /out:"Debug/myWeb.exe" /pdbtype:sept  .\Debug\MainFrm.obj .\Debug\myWeb.obj .\Debug\myWebDoc.obj .\Debug\myWebView.obj .\Debug\StdAfx.obj .\Debug\myWeb.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+myWeb.cpp
+myWebDoc.cpp
+myWebView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+myWeb.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

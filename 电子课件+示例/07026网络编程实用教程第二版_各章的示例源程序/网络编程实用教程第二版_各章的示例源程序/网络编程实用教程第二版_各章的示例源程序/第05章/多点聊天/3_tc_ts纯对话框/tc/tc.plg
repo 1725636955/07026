@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/tc.res" /d "_DEBUG" /d "_AFXDLL" "C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\tc.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP91E5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/tc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\CSocket.cpp"
+"C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\Msg.cpp"
+"C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\tc.cpp"
+"C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\tcDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP91E5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP91E6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/tc.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\3_tc_ts纯对话框\tc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP91E6.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tc.pdb" /debug /machine:I386 /out:"Debug/tc.exe" /pdbtype:sept  ".\Debug\CSocket.obj" ".\Debug\Msg.obj" ".\Debug\StdAfx.obj" ".\Debug\tc.obj" ".\Debug\tcDlg.obj" ".\Debug\tc.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSocket.cpp
+Msg.cpp
+tc.cpp
+tcDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+tc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

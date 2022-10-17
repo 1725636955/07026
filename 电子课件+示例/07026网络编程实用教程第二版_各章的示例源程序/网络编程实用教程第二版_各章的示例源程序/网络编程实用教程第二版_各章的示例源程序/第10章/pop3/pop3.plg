@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pop3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/pop3.res" /d "_DEBUG" /d "_AFXDLL" "C:\WINDOWS\Desktop\pop3\pop3.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP70D5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/pop3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\pop3\mySock.cpp"
+"C:\WINDOWS\Desktop\pop3\pop3.cpp"
+"C:\WINDOWS\Desktop\pop3\pop3Dlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70D5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP70D6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/pop3.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\WINDOWS\Desktop\pop3\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70D6.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/pop3.pdb" /debug /machine:I386 /out:"Debug/pop3.exe" /pdbtype:sept  .\Debug\mySock.obj .\Debug\pop3.obj .\Debug\pop3Dlg.obj .\Debug\StdAfx.obj .\Debug\pop3.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+mySock.cpp
+pop3.cpp
+pop3Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+pop3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
